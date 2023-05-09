@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <title>IT5100A Web App: TODO List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <style type="text/css" id="main-style"></style>
+</head>
+<body>
+<style>
+    button {
+        min-height: 50px;
+        padding: 15px 25px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #04AA6D;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+        margin: 0 20px;
+    }
+    button:hover {background-color: #3e8e41}
+
+    button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    .divreadwrite {
+        border: 1px blue solid;
+        background: #f0e8ff;
+        font-size: 24px;
+        min-width: 400px;
+        margin: 40px;
+        font-family: Nunito,serif;
+    }
+    .divreadonly {
+        font-size: 24px;
+        margin: 40px;
+        font-family: Nunito,serif;
+    }
+</style>
+<h1>IT5100 Web App</h1>
+<div id="workspace">
+
+</div>
+</body>
+<script src="/sjs/main.js"></script>
+<script>
+    main()
+</script>
+</html>
